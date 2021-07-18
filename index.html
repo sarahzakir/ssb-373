@@ -1,0 +1,726 @@
+<!doctype html>
+    <html>
+<head>
+<title> This is my first assignment</title>
+<link rel="icon" href="images/logo.png">
+</head>
+<body>
+<table border="1 px" width="100%" cellspacing="0">
+<tr>
+<th>SI</th>
+<th>Tag Name</th>
+<th>Tag Description</th>
+<th>Example</th>
+</tr>
+<tr>
+<td>01</td>
+<td>h1 tag</td>
+<td>This is used for heading</td>
+<td><h1>This is heading tag</h1></td>
+</tr>
+<tr>
+<td>02</td>
+<td>p tag</td>
+<td>This is used for paragraph</td>
+<td><p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit doloribus dolorem amet? Odit, possimus blanditiis beatae distinctio vero vel accusantium.</p></td>
+</tr>
+<tr>
+<td>03</td>
+<td>img tag</td>
+<td>This is used for image </td>
+<td><img src="images/logo.png" width="100px" alt=""></td>
+</tr>
+<tr>
+<td>04</td>
+<td>i tag</td>
+<td>This is used for italic tag</td>
+<td><i>This is italic</i> </td>
+</tr>
+<tr>
+    <td>05</td>
+    <td>list tag</td>
+    <td>This is used for listing</td>
+    <td>
+        <ul>
+            <li>home</li>
+            <li>about us</li>
+            <li>contact</li>
+            <li>blog</li>
+        </ul>
+    </td>
+</tr>
+<tr>
+    <td>06</td>
+    <td>h2 tag</td>
+    <td>This is used for heading </td>
+    <td><h2>This is heading tag</h2></td>
+</tr>
+<tr>
+    <td>07</td>
+    <td>h3 tag</td>
+    <td>This is used for heading</td>
+    <td>This is heading tag</td>
+</tr>
+<tr>
+    <td>08</td>
+    <td>h4 tag</td>
+    <td>This is used for heading</td>
+    <td>This is heading</td>
+</tr>
+<tr>
+    <td>09</td>
+    <td>h5 tag</td>
+    <td>This is used for heading</td>
+    <td>This is heading</td>
+</tr>
+<tr>
+    <td>10</td>
+    <td>h6 tag</td>
+    <td>This is used for heading</td>
+    <td>This is heading</td>
+</tr>
+<tr>
+    <td>11</td>
+    <td>audio tag</td>
+    <td>This is used for audio</td>
+    <td><audio src="audio/videoplayback.m4a" controls></audio></td>
+</tr>
+<tr>
+    <td>12</td>
+    <td>video tag</td>
+    <td>This is used for video</td>
+    <td><video src="video/videoplayback.mp4" width="200px" controls></video></td>
+</tr>
+<tr>
+    <td>13</td>
+    <td>br tag</td>
+    <td>This is used for breaking line</td>
+    <td><p>To force<br> line breaks<br> in a text,<br> use the br<br>element.</p></td>
+</tr>
+<tr>
+    <td>14</td>
+    <td>b tag</td>
+    <td>This is used for bolding</td>
+    <td><p>This is normal text-<b>and this is bold text</b></p></td>
+</tr>
+<tr>
+    <td>15</td>
+    <td>address tag</td>
+    <td>This is used for address</td>
+    <td>Written by <a href="mailto:webmaster@example.com">Jon Doe</a></td>
+</tr>
+<tr>
+    <td>16</td>
+    <td>artical tag</td>
+    <td>This is used for separating artical from the rest of the site</td>
+    <td>
+        <article>
+          <h2>Google Chrome</h2>
+          <p>Google Chrome is a web browser developed by google,released in 2008.Chrome is the world's most popular web browser today!</p>    
+        </article>
+    </td>
+</tr>
+<tr>
+    <td>17</td>
+    <td>bdi tag</td>
+    <td>This is used for isolating a part of text that might be formated in a different direction from other text outside it</td>
+    <td><p>In the example below,usernames are shown along with the number of points in a contest.</p>
+        <ul>
+            <li>User <bdi>hrefs</bdi>:60 points</li>
+            <li>User <bdi>jdoe</bdi>:80 points</li>
+        </ul>
+    </td>
+</tr>
+<tr>
+    <td>18</td>
+    <td>button tag</td>
+    <td>This is used for button option</td>
+    <td>
+        <button type="button" onclick="alert('Hello world')">Click Me!</button>
+    </td>
+</tr>
+<tr>
+    <td>19</td>
+    <td>canvas tag</td>
+    <td>This is used to draw graphics</td>
+    <td>
+        <canvas id="myCanvas"></canvas>
+        <script>
+            var c=document.getElementById("myCanvas");
+            var ctx=c.getContext("2d");
+            ctx.fillStyle="#FF0000";
+            ctx.fillRect(0,0,80,100);
+        </script>
+    </td>
+</tr>
+<tr>
+    <td>20</td>
+    <td>dd tag</td>
+    <td>This is used to describe a term/name in a description list</td>
+    <td>
+        <dl>
+            <dt>definition term</dt>
+            <dd>definition of the term</dd>
+            <dt>coffee</dt>
+            <dd>black hot drink</dd>
+        </dl>
+    </td>
+</tr>
+<tr>
+    <td>21</td>
+    <td>del tag</td>
+    <td>This is used for text that has been deleted from a document</td>
+    <td><p>My favourite color is <del>blue</del> <ins>red</ins>!</p></td>
+</tr>
+<tr>
+    <td>22</td>
+    <td>datalist tag</td>
+    <td>This is used to provide an "autocomplete" feature for <input> elements</td>
+    <td>
+        <form action="/action_page.php" method="get">
+        <label for="browser">Choose your browser from the list:</label>
+        <input list="browser" name="browser" id="browser">
+        <datalist id="browser">
+            <option value="Edge"></option>
+            <option value="Firefox"></option>
+        </datalist>        
+        <input type="submit">
+        </form>
+        <p><strong>Note</strong> The datalist tag is not supported in safari 12.0(or earlier)</p>
+    </td>
+</tr>
+<tr>
+    <td>23</td>
+    <td>em tag</td>
+    <td>This is used for emphasizing text</td>
+    <td><p>you <em>have</em> to hurry up!</p></td>
+</tr>
+<tr>
+    <td>24</td>
+    <td>footer tag</td>
+    <td>This is used for a footer section in a document</td>
+    <td>
+        <footer>
+         <p>Author:Hege Refsnes<br>
+           <a href= "mailto:hege@example.com">hege@example.com</a>
+         </p>
+        </footer>
+    </td>
+</tr>
+<tr>
+    <td>25</td>
+    <td>hr tag</td>
+    <td>This is used to separate content</td>
+    <td> <HR WIDTH="50%" SIZE="3"></HR> </td>
+</tr>
+<tr>
+    <td>26</td>
+    <td>nav tag</td>
+    <td>This is used for mohor block of navigation links</td>
+    <td>
+        <nav>
+            <a href="/html/">HTM"</a>
+            <a href="/css/">CSS</a>
+            <a href="/js/">JavaScript</a>
+        </nav>
+    </td>
+</tr>
+<tr>
+    <td>27</td>
+    <td>select tag</td>
+    <td>This is used to create a drop-down list</td>
+   <td>
+        <h1>The select element</h1>
+        <p>The select element is used to create a drop-down list.</p>
+      <form action="/action_page.php">
+        <label for="cars">Choose a car:</label>
+    <select name="cars" id="cars">
+        <option value="volvo">Volvo</option>
+        <option value="saab">Saab</option>
+        <option value="opel">Opel</option>
+        <option value="audi">Audi</option>
+    </select>
+      <br><br>
+    <input type="submit" value="Submit">
+      </form>
+      <p>Click the "Submit" button and the form-data will be sent to a page on the 
+       server called "action_page.php".</p>
+
+  </td>
+</tr>
+<tr>
+    <td>28</td>
+    <td>section tag</td>
+    <td>This is used for different section </td>
+    <td>
+        <section>
+            <h2>Example 1</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit aliquid consequuntur explicabo quibusdam, quo autem ab aut incidunt velit veniam!</p>
+          </section>
+          
+          <section>
+            <h2>Example 2</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos quis harum culpa dolores maiores quam adipisci, omnis dolorum officia quo.</p>
+          </section>
+    </td>
+</tr>
+<tr>
+    <td>29</td>
+    <td>small tag</td>
+    <td>This is used for smaller text</td>
+    <td>
+        <p>This is some normal text</p>
+        <p><small>This is some smaller text</small></p>
+    </td>
+</tr>
+<tr>
+    <td>30</td>
+    <td>span tag</td>
+    <td>This is used for marking up a part of text</td>
+    <td>
+        <p>My mother has <span style="color:blue;font-weight:bold">blue</span> eyes and my father has <span style="color:darkolivegreen;font-weight:bold">dark green</span> eyes.</p>
+    </td>
+</tr>
+<tr>
+    <td>31</td>
+    <td>strong tag</td>
+    <td>This is used for defining text with strong importance</td>
+    <td>
+        <p>This text is normal.</p>
+        <p><strong>This text is important!</strong></p>
+    </td>
+</tr>
+<tr>
+    <td>32</td>
+    <td>style tag</td>
+    <td>This is used for styling information in a document</td>
+    <td>
+        <head>
+            <style>
+            h1 {color:red;}
+            p {color:blue;}
+            </style>
+        </head>
+           <body>
+            
+            <h1>This is a heading</h1>
+            <p>This is a paragraph</p>
+            
+           </body>
+    </td>
+</tr>
+<tr>
+    <td>33</td>
+    <td>u tag</td>
+    <td>This is used for underlying a special word in a text</td>
+    <td><p>This is <u>blue</u> in colour</p></td>
+</tr>
+
+<tr>
+    <td>34</td>
+    <td>ol tag</td>
+    <td>This is used for oredered list</td>
+    <td>
+        <ol>
+            <li>List item 1
+            <li>List item 2
+            <li>List item 3
+            <li>List item 4
+        </ol>
+    </td>
+</tr>
+<tr>
+    <td>35</td>
+    <td>var tag</td>
+    <td>This is used to define a variable in programming or in a mathematical expression</td>
+    <td>
+        <p>The area of a triangle is: 1/2 x <var>b</var> x <var>h</var>, where <var>b</var> is the base, and <var>h</var> is the vertical height.</p>
+    </td>
+</tr>
+
+<tr>
+    <td>36</td>
+    <td>progress tag</td>
+    <td>This is used for showing the progress of a downloading</td>
+    <td>
+       <head>
+         <title>HTML progress tag</title>
+       </head>
+       <body>
+          Please wait it's loading... 
+          <progress>
+          <span id="progress">22%</span>
+          </progress>
+
+             <br /><br />
+
+         Uploading status... 
+         <progress value="30" max="100">30 %</progress>
+
+        </body>
+    </td>
+</tr>
+<tr>
+    <td>37</td>
+    <td>wbr tag</td>
+    <td>This is used for word break opportunity in a long string of text</td>
+    <td>
+        <head>
+            <title>HTML wbr tag</title>
+        </head>
+          <body>
+            <p>word not break: HowMuchYouLoveMe.</p>
+            <p>wbr tag example: How<wbr />Much<wbr />You<wbr />Love<wbr />Me.</p>
+          </body>
+    </td>
+</tr>
+<tr>
+    <td>38</td>
+    <td>colgroup tag</td>
+    <td>This is used to apply different properties in an html table</td>
+    <td>
+        <h2>Example of Colgroup Tag</h2>  
+        <table border="1">  
+            <colgroup>  
+                <col  style="background-color: green" width="40">  
+                <col span="2" style="background-color:   #ff7256" width="80">  
+            </colgroup>  
+            <tr>  
+                <th>Sr.No</th>  
+                <th>Product</th>  
+                <th>Price</th>  
+            </tr>  
+            <tr>  
+                <td>1</td>  
+                <td>Rice</td>  
+                 <td>85</td>  
+            </tr>  
+            <tr>  
+                <td>2</td>  
+                <td>Butter</td>  
+                 <td>260</td>     
+               </tr>  
+            <tr>  
+                <td>3</td>  
+                <td>Mango</td>  
+                 <td>125</td>  
+            </tr>  
+        </table>  
+
+    </td>
+</tr>
+<tr>
+    <td>39</td>
+    <td>dialog tag</td>
+    <td>This is used to create a popup dialog on a web page</td>
+    <td>
+        <dialog id="myFirstDialog" style="width:50%;background-color:#F4FFEF;border:1px dotted black;">  
+            <p><q>I am so clever that sometimes I don't understand a single word of what I am saying.   
+            </q> - <cite>Oscar Wilde</cite></p>  
+            <button id="hide">Close</button>  
+            </dialog>  
+            <button id="show">Show Dialog</button>  
+            </div>   
+            <script type="text/JavaScript">  
+            (function() {    
+                var dialog = document.getElementById('myFirstDialog');    
+                document.getElementById('show').onclick = function() {    
+                    dialog.show();    
+                };    
+                document.getElementById('hide').onclick = function() {    
+                    dialog.close();    
+                };    
+            })();   
+            </script>  
+    </td>
+</tr>
+<tr>
+    <td>40</td>
+    <td>div tag</td>
+    <td>This is used to group the large section of html elements together</td>
+    <td>
+        <div style="border:1px solid pink;padding:20px;font-size:20px">  
+            <p>Welcome to Javatpoint.com, Here you get tutorials on latest technologies.</p>  
+            <p>This is second paragraph</p>  
+        </div>  
+    </td>
+</tr>
+<tr>
+    <td>41</td>
+    <td>aside tag</td>
+    <td>This is used for providing information about the main content</td>
+    <td>
+        <p>I don't want to live in Ghaziabad, I wish; I could buy a flat in New Delhi.</p>  
+        <aside>  
+          <h3>New Delhi</h3>  
+        <p>New Delhi is the capital of India.</p>  
+        </aside>  
+    </td>
+</tr>
+<tr>
+    <td>42</td>
+    <td>blockquote tag</td>
+    <td>This is used to define a block of text which is quoted from another source</td>
+    <td>
+            <h2>Example of blockquote tag</h2>  
+            <p>A Great Motivational Quote :</p>  
+           <blockquote cite="https://www.brainyquote.com/authors/erin_cummings">  
+            <p>  
+             At the end of the day, you are solely responsible for your success and your failure. And the sooner you realize that, you accept that, and integrate that into your work ethic, you will start being successful. As long as you blame others for the reason you aren't where you want to be, you will always be a failure.  
+             </p>  
+           </blockquote>  
+            <cite>Erin Cummings</cite>  
+    </td>
+</tr>
+<tr>
+    <td>43</td>
+    <td>code tag</td>
+    <td>This is used to represent computer code</td>
+    <td>
+        <em>It is inside em tag.</em><br>  
+        <strong>It is inside strong tag.</strong><br>  
+        <dfn>It is inside dfn tag.</dfn><br>  
+        <code>It is inside code tag.</code><br>  
+        <samp>It is inside samp tag.</samp><br>  
+        <kbd>It is inside kbd tag.</kbd><br>  
+        <var>It is inside var tag.</var>  
+    </td>
+</tr>
+<tr>
+    <td>44</td>
+    <td>embed tag</td>
+    <td>This is used to embed an external document in an html file </td>
+    <td>  
+            <h2>Example of embed tag</h2>  
+            <p>Penguin</p>  
+            <embed src="images/penguin.jpg" height="200" width="300"></embed>   
+    </td>
+</tr>
+<tr>
+    <td>45</td>
+    <td>figure tag</td>
+    <td>This used for adding figure in the doument on a web page</td>
+    <td>
+        <p>The Taj Mahal is widely recognized as "the jewel of Muslim art in India and   
+            one of the universally admired masterpieces of the world's heritage". It is regarded  
+             by many as the finest example of Mughal architecture, a style that combines elements  
+             from Islamic, Persian, Ottoman, Turkish and Indian architectural styles.</p>  
+            <figure>  
+              <img src="images/Taj_Mahal.jpg" alt="Taj Mahal" height="200" width="300">  
+            </figure>  
+    </td>
+</tr>
+<tr>
+    <td>46</td>
+    <td>kbd tag</td>
+    <td>This is used when a document needs to display the text which user should enter exactly from his keyboard</td>
+    <td>
+       
+        <h2>Example of Kbd tag</h2>  
+        <p>If you are using MS document then you can use shortcut <kbd>ctrl + s</kbd> to save your current document. </p>  
+
+    </td>
+</tr>
+<tr>
+    <td>47</td>
+    <td>marquee tag</td>
+    <td>This is used to scroll a image or text horizontally or vertically</td>
+    <td>
+        <marquee>This is an example of html marquee </marquee>
+    </td>
+</tr>
+<tr>
+    <td>48</td>
+    <td>param tag</td>
+    <td>This is used to pass parameter to the object that has been embeded using object element</td>
+    <td>
+        <h2>Example of Param Tag</h2>
+        <object data="https://www.youtube.com/embed/JHq3pL4cdy4" >
+        <param name="controller" value="true">
+        </object>
+    </td>
+</tr>
+<tr>
+    <td>49</td>
+    <td>summary tag</td>
+    <td>This is used for summary for the content of a detail element</td>
+    <td>
+        <details>    
+            <summary>MacBook Pro Specification</summary>    
+              <ul>    
+                <li><strong>13.3-inch LED-backlit glossy widescreen display</strong> with edge-to-edge, uninterrupted glass (1280 x 800-pixel resolution).</li>    
+                <li><strong>2.4 GHz Intel Core i5 dual-core processor</strong> with 3 MB shared L3 cache for excellent multitasking.</li>    
+                <li><strong>Intel HD Graphics 3000</strong> with 384 MB of DDR3 SDRAM shared with main memory.</li>    
+                <li><strong>500 GB Serial ATA hard drive</strong> (5400 RPM)</li>    
+                <li><strong>4 GB installed RAM</strong> (1333 MHz DDR3; supports up to 8 GB)</li>    
+              </ul>    
+          </details>  
+    </td>
+</tr>
+<tr>
+    <td>50</td>
+    <td>samp tag</td>
+    <td>This is used to represent output from a computer program or a script in the browser </td>
+    <td>
+        <head>
+            <title>HTML samp tag</title>
+            <style>
+             body{
+                 text-align: center;
+                      }
+            </style>
+        </head>
+        <body> 
+        <h2>Example of samp tag</h2>
+        <p>I am trying to install a software on my system but it is continuously giving an error message:
+        </p>
+        <p><samp>Error 5: Access is denied.</samp></p>
+        </body>
+    </td>
+</tr>
+<tr>
+    <td>51</td>
+    <td>svg tag</td>
+    <td>This is used vector type diagrams like pie charts</td>
+    <td>
+        <svg width="100" height="100">  
+            <circle cx="50" cy="50" r="40" stroke="yellow" stroke-width="4" fill="red" />  
+        </svg> 
+    </td>
+</tr>
+<tr>
+    <td>52</td>
+    <td>time tag</td>
+    <td>This is used to encode dates and times in a machine-readable way to mark</td>
+    <td>
+        <p>We open our shop at <time>09:00</time> am.</p>  
+        <p>The business meeting is scheduled on <time datetime="2009-02-18">next wednesday</time>.</p>  
+        <p>The wedding of Salman's sister was scheduled  at <time datetime="2014-11-19 T0 7:00-09:00">7pm last wednesday </time>.</p>  
+    </td>
+</tr>
+<tr>
+    <td>53</td>
+    <td>abbr tag</td>
+    <td>This is used for displaying </td>
+    <td>
+        Advance topic <abbr title="Cascading Style Sheet">CSS</abbr> is more flexible to useful.
+    </td>
+</tr>
+<tr>
+    <td>54</td>
+    <td>bb tag</td>
+    <td>This is used for download  a website as a standalone web application</td>
+    <td>
+        <bb type="makeapp">Yahoo Messanger Chat Box</bb>
+    </td>
+</tr>
+<tr>
+    <td>55</td>
+    <td>command tag</td>
+    <td>This is used in special type of opration</td>
+    <td>
+        <menu>
+            <command type="checklist" label="Check List">Check List</command>
+          </menu>
+    </td>
+</tr>
+<tr>
+    <td>56</td>
+    <td>datagrid tag</td>
+    <td>This is used to set row or column grid and split number of individual column grid</td>
+    <td>
+        <datagrid>
+            <ol style="list-style-type:decimal;">
+             <li> (Row.1) </li>
+               <ol style="list-style-type:lower-alpha;">
+               <li> (Row 1,1) </li>
+               <li> (Row 1,2) </li>
+               </ol>
+             <li> (Row.2)
+              <ol style="list-style-type:lower-alpha;">
+               <li> (Row 2,1) </li>
+               <li> (Row 2,2) </li>
+              </ol>
+             </li>
+            </ol>
+           </datagrid>
+    </td>
+</tr>
+<tr>
+    <td>57</td>
+    <td>label tag</td>
+    <td>This is used to caption a text label with a form input element</td>
+    <td>
+        <form>
+            <label for="firstname">First Name </label> 
+            <input type="text" name="firstname" id="firstname" />
+        </form>
+    </td>
+</tr>
+<tr>
+    <td>58</td>
+    <td>legend tag</td>
+    <td>This is used to add a caption to a group of related form elements that are grouped togather</td>
+    <td>
+        <fieldset>
+            <legend>Your Name</legend>
+        
+            <label for="male">First Name</label>
+            <input type="text" name="firstname" id="firstname"/>
+        
+            <label for="female">Last Name</label>
+            <input type="text" name="lastname" id="lastname">
+        </fieldset>
+        
+          <fieldset>
+            <legend>Gender</legend>
+        
+            <input type="radio" name="gender" id="male" value="male" checked="checked"/>
+            <label for="male">Male</label>
+        
+            <input type="radio" name="gender" id="female" value="female"/>
+            <label for="female">Female</label>
+          </fieldset>
+    </td>
+</tr>
+<tr>
+    <td>59</td>
+    <td>menu tag</td>
+    <td>This is used to display a unordered list of items</td>
+    <td>
+        <h3>1.) type="context"</h3>
+        <div contextmenu="popup-menu">Right-click to see the context menu</div>
+       <menu type="context" id="popup-menu">
+        <menuitem>Action 1</menuitem>
+        <menu label="Action 2">
+        <menuitem>Sub Menu</menuitem>
+      </menu>
+        <menuitem>Action 3</menuitem>
+      </menu>
+
+    <h3>2.) type="list"</h3>
+     <menu>
+     <li>item 1</li>
+     <li>item 2</li>
+     <li>item 3</li>
+    </menu>
+
+    <h3>3.) type="toolbar"</h3>
+     <menu type="toolbar" label="copy">
+     <button type="button" onclick="copyfuncion()">Copy</button>
+    </menu>
+    </td>
+</tr>
+<tr>
+    <td>60</td>
+    <td>meter tag</td>
+    <td>This is used to measure data within a given range</td>
+    <td>
+        <p>Your profile completed: <meter value="80" min="0" max="100">80%</meter></p>
+        <p>Free Space: <meter value="52" min="0" max="100">52%</meter></p>
+    </td>
+</tr>
+
+</table>
+</body>
+    </html>
